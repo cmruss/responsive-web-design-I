@@ -187,12 +187,13 @@ nav {
     padding: 3% 0;
 }
 
-nav a {
+.nav-bar a {
     text-decoration: none;
     color: grey;
+    padding: 5px 30px;
 }
 
-nav a:hover {
+.nav-bar a:hover {
     border: 1px solid grey;
     transition: 0.3s;
     color: white;
