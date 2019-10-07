@@ -305,7 +305,7 @@
                 flex-direction: column;
                 text-align: center;
             }
-            nav a {
+            .nav-bar a {
                 width: 100%;
                 border-bottom: 1px solid grey;
                 padding: 3%;
@@ -320,7 +320,7 @@
                 display: none;
             }
             .services-header-img {
-                margin-top: 72%;
+                margin-top: 80%;
             }
             .service-grid div {
                 width: 85%;
