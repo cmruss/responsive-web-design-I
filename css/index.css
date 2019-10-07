@@ -273,7 +273,6 @@ h1 {
 }
 
 footer {
-    width: 90%;
     display: flex;
     justify-content: space-around;
     margin: 2% 0;
@@ -313,15 +312,19 @@ footer {
     }
     nav a {
         width: 100%;
-        border: 1px solid grey;
-        padding: 2%;
+        border-bottom: 1px solid grey;
+        padding: 3%;
     }
-    .logo {
-        padding: 3% 0;
+    .logo-wrap {
+        text-align: center;
+        width: 100%;
+        padding: 2% 0;
+        border-bottom: 1px solid grey;
     }
     header {
         align-content: center;
-        margin-top: 73%;
+        margin-top: 82%;
+        padding: 3% 0;
     }
     .Upper-Content {
         display: flex;
@@ -338,5 +341,8 @@ footer {
     .Lower-Content div {
         width: 90%;
         margin: 5% 0;
+    }
+    .Contact {
+        padding: 2% 0;
     }
 }
